@@ -1,0 +1,32 @@
+@import './base.css';
+
+a,
+.green {
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: hsla(160, 100%, 37%, 0.2);
+    }
+}
+
+.f-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-r {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-grow {
+    flex: 1;
+}
+
+.container {
+    min-height: 100vh;
+}
